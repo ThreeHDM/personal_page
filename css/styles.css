@@ -1,0 +1,375 @@
+@font-face {
+    font-family: mifont;
+    src: url(../fonts/MonkeyIsland-1990.ttf);
+}
+
+@font-face {
+    font-family: pixel;
+    src: url(../fonts/VCR_OSD_MONO_1.001.ttf);
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    word-wrap: break-word;
+
+}
+
+p {
+    font-size: 23px;
+    margin: 0px 25px 30px 25px;
+    
+}
+
+
+h4 {
+    margin: 0px 20px 15px 20px;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+p, h4, a {
+    font-family: pixel;
+}
+
+#topBar {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    height: 6%;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7d7e7d+0,0e0e0e+100;Black+3D */
+    background-color: #000;
+}
+
+#topBar a {
+    color: #fff;
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+#topBar a:hover {
+    color: #d3d3d3;
+}
+/*
+#pic {
+width: 60%;
+margin-top: 15%;
+-webkit-transform:rotate(380deg);
+-moz-transform: rotate(380deg);
+-ms-transform: rotate(380deg);
+-o-transform: rotate(380deg);
+transform: rotate(380deg);
+-webkit-box-shadow: 0px 2px 13px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 2px 13px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 2px 13px 0px rgba(0,0,0,0.75);
+
+
+}
+*/
+
+#pic {
+width: 30%;
+-webkit-box-shadow: 0px 2px 13px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 2px 13px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 2px 13px 0px rgba(0,0,0,0.75);
+float: left;
+margin: 0px 7px 7px 0px;
+border-radius: 50%;
+}
+/*
+COMENTADO PUES LO PUSE EN LA MQUERY
+nav {
+    width: 25%;
+    height: 100%;
+    position: fixed;
+    z-index: 1000;
+    top: 6%;
+    background-color: rgba(255, 255, 255, 0.5019607843137255);
+    
+    color: #fff;
+}*/
+
+
+nav ul {
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-left: 0px 
+}
+
+nav li {
+    list-style: none
+}
+
+nav li a {
+        font-family: mifont;
+font-size: 30px;
+color: #9E9E9E;
+text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+nav li a:hover {
+    color: #d3d3d3;
+    text-decoration: none;
+}
+.active {
+color: #4c5dbb;
+text-decoration: none;
+}
+
+
+#nombre {
+        font-family: mifont;
+    color: #fff;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.page-section {
+    
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;
+    min-width: 100%;
+    min-height: 800px;
+}
+
+.sectionTitle {
+    width: 30%;
+    margin: auto;
+}
+
+@media only screen and (max-width: 953px) { 
+   .sectionTitle {
+    width: 40%;
+}
+}
+
+@media only screen and (max-width: 737px) { 
+   .sectionTitle {
+    width: 60%;
+  
+}
+}
+
+
+.blackBack {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-top: 5%;
+    padding-left: 5%;
+    height: 100%;
+    display: none;
+    width: 75%;
+    margin-left: 25%;
+}
+
+
+
+#sobremi {
+    background-image: url(../img/bg.jpg);
+}
+
+#sobremi .blackBack {
+    padding-top: 10%;
+    display: block;
+}
+
+#abogado {
+    background-image: url(../img/lady.jpg);
+}
+
+#developer {
+    
+    background-image: url(../img/code.jpg);
+}
+
+#cv {
+
+    background-image: url(../img/desk.jpg);
+}
+
+
+#emprendimientos {
+    background-image: url(../img/silicon.jpg);   
+}
+
+#blog {
+    background-image: url(../img/type.jpg);
+    
+}
+
+#contenido {
+    
+    height: 100%
+}
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+.img-height {
+    height: 175px;
+}
+
+footer {
+    z-index: 1001;
+    background-color: black;
+    color: #fff;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+}
+
+footer a {
+    color: #fff;
+}
+
+    @media only screen and (max-width: 1051px) {
+    nav li a {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 737px) {
+    nav {
+    display: block;
+    width: 25%;
+    height: 100%;
+    position: fixed;
+    z-index: 1000;
+    top: 6%;
+    
+    background-color: #fff;
+    
+    color: #fff;
+    -webkit-box-shadow: 18px 2px 69px 10px rgba(0,0,0,0.75);
+-moz-box-shadow: 18px 2px 69px 10px rgba(0,0,0,0.75);
+box-shadow: 18px 2px 69px 10px rgba(0,0,0,0.75);
+    }
+
+    .menu-background {
+    background-image: url(../img/patternsmall.jpg);
+    background-repeat: repeat-x;
+    height: 50%;
+    }
+
+    .bottom-back {
+        position: absolute;
+        height: 50%;
+        width: 100%;
+        bottom: 0%;
+        transform: rotate(180deg);
+            z-index: -10;
+    }
+}
+
+
+
+@media only screen and (max-width: 737px) {
+
+#pic {
+    display: none;
+}
+
+.blackBack {
+    width: 100%;
+    margin-left: 0%;
+    padding-top: 20%;
+}
+
+
+nav {
+    width: 100%;
+    height: 40%;
+    position: fixed;
+    top: 11%;
+    background-color: #000;
+    z-index: 1500;
+    color: #fff;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    display: none;
+}
+
+
+#topBar {
+        height: 12%;
+padding: 15px;
+}
+
+
+
+.firstPg {
+    margin-top: 8%;
+}
+
+
+
+.line {
+width: 35px;
+height: 5px;
+background-color: #fff;
+margin: 6px 0;
+}
+
+
+
+}
+
+	
+/*TILT*/
+.tilt {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+ 
+.tilt:hover {
+  -webkit-transform: rotate(-10deg);
+     -moz-transform: rotate(-10deg);
+       -o-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}
+
+article {
+    padding-right: 10px;
+}
+
+.badge {
+    font-size: 25px;
+    margin: 5px;
+}
+
+.toolitem {
+    width: 10%;
+    margin: 0px 5px 5px 0px;
+}
+
+.push {
+    height: 100px;
+}
+
+.card {
+    margin-bottom: 10px;
+    min-height: 350px;
+    background-color: #f1e4e4;
+    -webkit-box-shadow: 8px 2px 69px 10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 8px 2px 69px 10px rgba(0,0,0,0.75);
+    box-shadow: 8px 2px 69px 10px rgba(0,0,0,0.75);
+}
+
+
+
+.card-text {
+    font-size: 16px;
+}
+
+.card-text, .card-title {
+    color: #000;
+}

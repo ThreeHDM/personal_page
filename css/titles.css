@@ -1,0 +1,37 @@
+
+@font-face {
+    font-family: anon;
+    src: url(../fonts/NightmareCodehack.otf);
+}
+
+.line-1{
+    
+    font-family: anon;
+    position: relative;
+    top: 10%;  
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+
+
+/* Animation */
+.anim-typewriter{
+      margin-top: 50px;
+  animation: typewriter 3s steps(12) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 100%;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
